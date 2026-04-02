@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@utility container{
+    max-width:1218px;
+    padding-inline:15px;
+    margin-inline:auto;
+}
+body {
+  font-family: "PlusJakarta", sans-serif;
+}
+nav{
+    font-family: "Manorose Medium",sans-serif;
+}
+footer{
+        font-family: "Manorose Medium",sans-serif;
+}
+@font-face {
+    font-family: "Manrose Medium";
+    src: url("src/assets/fonts/Manrope-Medium.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "PlusJakarta";
+    src: url("src/assets/fonts/PlusJakartaSans[wght].ttf") format("truetype");
+}
