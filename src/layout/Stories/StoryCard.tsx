@@ -1,8 +1,9 @@
+import { Heart } from "lucide-react";
+
 const StoryCard = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4">
-      <div className="relative w-full rounded-2xl overflow-hidden border border-white/10 flex flex-col md:flex-row bg-[#0d0d0d] shadow-xl">
-
+    <div className="max-w-6xl mx-auto p-7">
+      <div className="relative w-full rounded-2xl flex gap-10 overflow-hidden borderflex flex-col md:flex-row  shadow-xl">
         {/* LEFT IMAGE */}
         <div className="relative w-full md:w-[60%] h-[280px] md:h-[400px]">
           <img
@@ -35,29 +36,24 @@ const StoryCard = () => {
         </div>
 
         {/* RIGHT CARD */}
-        <div className="w-full md:w-[40%] p-6 md:p-8 flex flex-col justify-center gap-6 bg-white/5 backdrop-blur-lg">
-
+        <div
+          className="w-full md:w-[40%] md:h-[45vh] 
+  px-4 sm:px-6 md:px-10 
+  py-6 md:py-0
+  flex flex-col justify-center gap-5 
+  bg-white/5 backdrop-blur-lg rounded-[24px] md:rounded-[32px]"
+        >
           {/* ICON */}
-          <div className="w-12 h-12 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center">
-            <svg
-              className="w-5 h-5 text-pink-400"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 
-              2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 
-              4.5 2.09C13.09 3.81 14.76 3 
-              16.5 3 19.58 3 22 5.42 22 8.5c0 
-              3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-            </svg>
+          <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-[#FF89AC]/10 flex items-center justify-center shrink-0">
+            <Heart color="#FF89AC" size={20} />
           </div>
 
           {/* CONTENT */}
           <div>
-            <h3 className="text-white text-lg md:text-xl font-semibold mb-2">
+            <h3 className="text-white text-base sm:text-lg md:text-xl font-semibold mb-2 leading-snug">
               The First Connection
             </h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
               Within 48 hours of joining, Julian received a "Connection Pulse"
               from Elena. Their first conversation lasted 6 hours.
             </p>
@@ -67,11 +63,11 @@ const StoryCard = () => {
           <div className="border-t border-white/10" />
 
           {/* METRIC */}
-          <div className="flex items-center justify-between">
-            <span className="text-xs text-gray-500 uppercase tracking-widest">
+          <div className="flex items-center justify-between flex-wrap gap-2">
+            <span className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-widest">
               Success Metric
             </span>
-            <span className="text-pink-400 font-semibold text-sm">
+            <span className="text-pink-400 font-semibold text-xs sm:text-sm">
               98% Match Score
             </span>
           </div>

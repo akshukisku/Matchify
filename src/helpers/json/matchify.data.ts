@@ -41,3 +41,33 @@ export const pricingData = [
     highlighted: false,
   },
 ];
+
+export const featuresData = [
+  {
+    id: 1,
+    title: "AI Recommendations",
+    desc: "Our NeuralMatch™ engine analyzes over 100 behavioral data points to suggest partners who truly resonate with your lifestyle and values.",
+    icon: "🧠",
+    span: "col-span-2",
+  },
+  {
+    id: 2,
+    title: "Swipe with gestures",
+    desc: "Tactile, fluid, and intuitive. Our gesture-based interface makes navigation feel like a natural extension of your hand.",
+    icon: "👆",
+  },
+  {
+    id: 3,
+    title: "Real-time chat",
+    desc: "Never miss a beat with instant delivery and animated presence indicators.",
+    icon: "💬",
+  },
+  {
+    id: 4,
+    title: "Video calls",
+    desc: "Crystal clear 4K video calling with built-in privacy filters and ice-breaker games.",
+    icon: "🎥",
+    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    span: "col-span-2",
+  },
+];

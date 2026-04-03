@@ -16,7 +16,7 @@ const Herosection = () => {
                 border border-white/10 bg-white/5 backdrop-blur-sm
                 transition-all duration-700 }`}
             >
-              <span className="text-[#FF89AC] text-[12px] sm:text-xs font-medium tracking-[0.2em] uppercase font-manrose font-bold">
+              <span className="text-[#FF89AC] text-[12px] sm:text-xs  tracking-[0.2em] uppercase font-manrose font-bold">
                 The Evolution of Connection
               </span>
             </div>
