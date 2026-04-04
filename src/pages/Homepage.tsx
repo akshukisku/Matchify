@@ -5,7 +5,7 @@ import SubscriptionPart from '../layout/SubscriptionPart'
 
 const Homepage = () => {
   return (
-    <div className='container'>
+    <div className='w-full'>
         <HeroSection/>
         <FeaturesSection/>
         <SubscriptionPart/>

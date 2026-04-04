@@ -71,3 +71,24 @@ export const featuresData = [
     span: "col-span-2",
   },
 ];
+
+export const cards = [
+  {
+    id: 1,
+    title: "Leo & Maya",
+    subtitle: "Meaningful Connection",
+    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
+  },
+  {
+    id: 2,
+    title: "David & Sarah",
+    subtitle: "New Horizons",
+    image: "https://images.unsplash.com/photo-1529336953121-a0d2d0c3c0b8",
+  },
+  {
+    id: 3,
+    title: "Join the Mosaic",
+    subtitle: "Your Story Awaits",
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+  },
+];
