@@ -34,7 +34,7 @@ const SignupCard = () => {
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         {/* Name Fields */}
         <div className="flex gap-2">
-          <label className="flex flex-col gap-1 w-1/2">
+          <label className="flex flex-col gap-1 w-1/2 text">
             First Name
             <input
               type="text"
@@ -58,7 +58,7 @@ const SignupCard = () => {
           </label>
         </div>
 
-        <label htmlFor="" className="flex flex-col gap-3">
+        <label htmlFor="" className="flex flex-col gap-3 text-[#767575] uppercase font-bold text-[14px]">
           Email Address
           <input
             type="email"

@@ -43,7 +43,7 @@ const LoginCard = () => {
           placeholder="julian@gala.com"
           value={form.email}
           onChange={handleChange}
-          className="p-2 bg-black  rounded-md outline-none "
+          className="p-4 bg-black  rounded-md outline-none "
         />
       </label>
 
@@ -54,7 +54,7 @@ const LoginCard = () => {
           placeholder="••••••••"
           value={form.password}
           onChange={handleChange}
-          className="p-2 bg-black rounded-md outline-none"
+          className="p-4 bg-black rounded-md outline-none"
         />
      </label>
 

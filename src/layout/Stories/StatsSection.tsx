@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const stats = [
   { value: "12k+", label: "Marriages" },
