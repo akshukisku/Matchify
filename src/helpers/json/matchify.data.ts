@@ -92,3 +92,23 @@ export const cards = [
     image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
   },
 ];
+
+
+export const storiesData = [
+  {
+    id: 1,
+    quote:
+      "I was tired of the endless swipe cycle. Matchify+ felt different from day one—more like a digital concierge than a dating app. I met Sarah within two weeks.",
+    name: "David & Sarah",
+    location: "Matched in London",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+  },
+  {
+    id: 2,
+    quote:
+      "The AI recommendations are scarily accurate. It didn’t just find someone I liked, it found someone who shared my obscure passion for 70s jazz fusion.",
+    name: "Mia & James",
+    location: "Matched in New York",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+  },
+];

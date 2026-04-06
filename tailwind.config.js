@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       jakarta: ["PlusJakarta", "sans-serif"],
-      manrose: ["Manrose Medium", "sans-serif"],
+      manrose: ["Manrope Medium", "sans-serif"],
     },
   },
   plugins: [],

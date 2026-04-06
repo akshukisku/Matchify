@@ -54,7 +54,7 @@ const Navbar = () => {
           className="flex items-center gap-2 cursor-pointer"
           onClick={() => navigate("/")}
         >
-          <img src="/brand_icon.svg" alt="logo" />
+          <a href="#"><img src="/brand_icon.svg" alt="logo" /></a>
         </div>
 
         {/* Desktop Nav */}

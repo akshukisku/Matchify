@@ -36,7 +36,7 @@ const LoginCard = () => {
 
       {/* Form */}
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-      <label htmlFor="email" className="flex flex-col gap-3 uppercase text-[#767575] font-bold text-[14px]">Email  Address
+      <label htmlFor="email" className="flex flex-col gap-3 uppercase text-[#767575]  text-[14px]">Email  Address
           <input
           type="email"
           name="email"

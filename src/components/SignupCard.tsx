@@ -58,7 +58,7 @@ const SignupCard = () => {
           </label>
         </div>
 
-        <label htmlFor="" className="flex flex-col gap-3 text-[#767575] uppercase font-bold text-[14px]">
+        <label htmlFor="" className="flex flex-col gap-3 text-[#767575] uppercase  text-[14px]">
           Email Address
           <input
             type="email"

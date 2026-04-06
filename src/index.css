@@ -11,17 +11,17 @@ body {
   font-family: "PlusJakarta", sans-serif;
 }
 nav {
-  font-family: "Manorose Medium", sans-serif;
+  font-family: "Manrope Medium", sans-serif;
 }
 footer {
-  font-family: "Manorose Medium", sans-serif;
+  font-family: "Manorope Medium", sans-serif;
 }
 @font-face {
-  font-family: "Manrose Medium";
-  src: url("src/assets/fonts/Manrope-Medium.ttf") format("truetype");
+  font-family: "Manrope Medium";
+  src: url("/fonts/Manrope-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "PlusJakarta";
-  src: url("src/assets/fonts/PlusJakartaSans.ttf") format("truetype");
+  src: url("fonts/PlusJakartaSans.ttf") format("truetype");
 }
