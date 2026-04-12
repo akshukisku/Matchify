@@ -6,11 +6,11 @@ import VerifiedSection from "../layout/Safety/VerifiedSection"
 
 const Safety = () => {
   return (
-    <>
+    <div className='w-full'>
     <SafetyHeroSection/>
     <VerifiedSection/>
     <FinalCTA/>
-    </>
+    </div>
   )
 }
 

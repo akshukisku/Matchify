@@ -127,3 +127,42 @@ export const storiesData = [
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
 ];
+
+export const featureMatrix = [
+  {
+    name: "Daily Swipes",
+    free: "10 Likes",
+    plus: "Unlimited",
+    premium: "Unlimited",
+  },
+  {
+    name: "Incognito Mode",
+    free: false,
+    plus: false,
+    premium: true,
+  },
+  {
+    name: "Advanced Filters",
+    free: false,
+    plus: false,
+    premium: true,
+  },
+  {
+    name: "Weekly Profile Boost",
+    free: false,
+    plus: "1 Boost",
+    premium: "3 Boosts",
+  },
+  {
+    name: "See Who Likes You",
+    free: false,
+    plus: true,
+    premium: true,
+  },
+  {
+    name: "Global Passport",
+    free: false,
+    plus: true,
+    premium: true,
+  },
+];
