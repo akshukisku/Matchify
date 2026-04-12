@@ -1,21 +1,33 @@
-export const pricingData = [
+import { CircleCheck } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+
+export type PricingPlan = {
+  id: string;
+  name: string;
+  price: number;
+  duration: string;
+  features: string[];
+  buttonText: string;
+  isRecommended?: boolean;
+  icon: LucideIcon;
+  iconFill: "fill" | "nofill";
+};
+
+export const pricingPlans: PricingPlan[] = [
   {
-    id: 1,
+    id: "free",
     name: "Free",
-    price: "$0",
+    price: 0,
     duration: "/mo",
-    features: [
-      "Standard discovery",
-      "Limited daily swipes",
-      "Basic filters",
-    ],
+    features: ["Standard discovery", "Limited daily swipes", "Basic filters"],
     buttonText: "Start for free",
-    highlighted: false,
+    icon: CircleCheck,
+    iconFill: "nofill",
   },
   {
-    id: 2,
+    id: "plus",
     name: "Plus",
-    price: "$19.99",
+    price: 19.99,
     duration: "/mo",
     features: [
       "Unlimited swipes",
@@ -24,12 +36,14 @@ export const pricingData = [
       "1 Monthly Boost",
     ],
     buttonText: "Upgrade Now",
-    highlighted: true,
+    isRecommended: true,
+    icon: CircleCheck,
+    iconFill: "fill",
   },
   {
-    id: 3,
+    id: "premium",
     name: "Premium",
-    price: "$39.99",
+    price: 39.99,
     duration: "/mo",
     features: [
       "All Plus features",
@@ -38,7 +52,8 @@ export const pricingData = [
       "Incognito mode",
     ],
     buttonText: "Go Premium",
-    highlighted: false,
+    icon: CircleCheck,
+    iconFill: "nofill",
   },
 ];
 
